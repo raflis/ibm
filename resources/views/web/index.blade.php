@@ -178,48 +178,88 @@
                     <h2>Plenaria</h2>
                 </div>
                 <div class="content content1">
-                    <p class="p1">
+                    <div class="p1">
+                        <div class="time">
+                            <p><strong>09:30</strong> AM</p>
+                        </div>
                         <span>
                             Apertura
                         </span><br><br>
                         <strong>Álvaro Santa María</strong><br>
-                        General Manager, IBM Perú & Technology Sales Leader IBM North Spanish South America Region
-                    </p>
-                    <p class="p1">
+                        General Manager, IBM Perú &
+                        Technology Sales Leader IBM
+                        North Spanish South
+                        America Region
+                    </div>
+                    <div class="p1">
+                        <div class="time">
+                            <p><strong>09:40</strong> AM</p>
+                        </div>
                         <span>
                             Innovación y tecnología, receta para el éxito
                         </span><br><br>
                         <strong>Joaquim Campos,</strong> VP IBM Data & AI, Automation & AI Apps, IBM Latinoamérica<br><br>
                         <strong>Juan Carlos Del Alcázar,</strong> Gerente General de Financiera Efectiva y César Calderón, Gerente Corporativo de Servicio al Negocio de Grupo EFE
-                    </p>
-                    <p class="p1">
+                    </div>
+                    <div class="p1">
+                        <div class="time">
+                            <p><strong>10:25</strong> AM</p>
+                        </div>
                         <span>
                             Transformando la experiencia del cliente en Interbank en el camino a ser 100% digitales
                         </span><br><br>
                         <strong>Marcelo Delgado,</strong> CTO, IBM Perú Consulting <br><br>
                         <strong>Rocío Toma,</strong> Gerente de Arquitectura TI en Interbank
-                    </p>
+                    </div>
+                    <div class="p1">
+                        <div class="time">
+                            <p><strong>10:55</strong> AM</p>
+                        </div>
+                        <span>
+                            Power break
+                        </span>
+                    </div>
                 </div>
                 <div class="content">
-                    <p class="p1">
+                    <div class="p1">
+                        <div class="time">
+                            <p><strong>11:05</strong> AM</p>
+                        </div>
                         <span>
                             Harness the Power of Hybrid Cloud
                         </span><br><br>
-                        <strong>Patricio Espinosa,</strong> General Manager & Technology Leader, North Spanish South America Region
-                    </p>
-                    <p class="p1">
+                        <strong>Patricio Espinosa,</strong> General Manager & Technology Leader, North Spanish South America Region<br><br>
+                        <strong>Guillermo Moreano,</strong> VP Operaciones & Tecnologia, Grupo IF <br><br>
+                        <strong>Daniel Alván,</strong> Chief Information and Digital Officer at Yanbal International
+                    </div>
+                    <div class="p1">
+                        <div class="time">
+                            <p><strong>11:35</strong> AM</p>
+                        </div>
                         <span>
                             Next Wave to the Cybersecurity
                         </span><br><br>
                         <strong>Gabriel Catropa,</strong> Partner & CTO Cybersecurity, IBM Latinoamérica<br><br>
-                        <strong>Andres Montenegro,</strong> Gerente de Seguridad Informática en Diners Club del Ecuador
-                    </p>
-                    <p class="p1">
+                        <strong>Ricardo Perez D´Brot,</strong> Sub Gerente de Inteligencia y Respuesta de Ciberseguridad en Interbank
+                    </div>
+                    <div class="p1">
+                        <div class="time">
+                            <p><strong>12:05</strong> PM</p>
+                        </div>
                         <span>
                             The Future of Computing
                         </span><br><br>
-                        <strong>Narciso Lema,</strong> Technology Technical Community Leader, IBM North Spanish South America Region
-                    </p>
+                        <strong>Narciso Lema,</strong> Technology Technical Community Leader, IBM North Spanish South America Region <br><br>
+                        <strong>Ulisses Mello,</strong> Director, Global Technology Outlook, Distinguished Engineer Research, IBM WordlWide
+                    </div>
+                    <div class="p1">
+                        <div class="time">
+                            <p><strong>12:35</strong> PM</p>
+                        </div>
+                        <span>
+                            Lunch
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -276,17 +316,11 @@
                             <p class="title1">
                                 Business & IT Automation
                                 </p>
-                                <p class="detail1">
-                                Lorem ipsum dolor 
-                                </p>
                             </td>
                             <td>&nbsp;</td>
                             <td bgcolor="#1192E8">
                             <p class="title1">
                                 Hybrid Cloud & Modernization
-                                </p>
-                                <p class="detail1">
-                                Lorem ipsum dolor 
                                 </p>
                             </td>
                             <td>&nbsp;</td>
@@ -294,17 +328,11 @@
                             <p class="title1">
                                 Zero Trust Security
                                 </p>
-                                <p class="detail1">
-                                Lorem ipsum dolor 
-                                </p>
                             </td>
                             <td>&nbsp;</td>
                             <td bgcolor="#08BDBA">
                             <p class="title1">
                                 Data Fabric & AI
-                                </p>
-                                <p class="detail1">
-                                Lorem ipsum dolor 
                                 </p>
                             </td>
                         </tr>
@@ -387,6 +415,8 @@
                                     From Basic SOC to Fusion Center
                                     <br><br>
                                     <strong>Carlos Dávida,</strong> CISO de Grupo Romero y Andrés Montenegro, CISO de Diners
+                                    <br><br>
+                                    <strong>Perez D´Brot,</strong> Sub Gerente de Inteligencia y Respuesta de Ciberseguridad en Interbank
                                     <br><br>
                                     <strong>Matías Haidbauer,</strong> Threat Management Services Leader IBM Latin America, IBM Security Services
                                 </p>
@@ -486,7 +516,9 @@
                                 <p class="text2">
                                     Hybrid Cloud - Responda más rápido a las demandas comerciales que cambian constantemente
                                     <br><br>
-                                    <strong>Alberto Vives,</strong> CEO, Grupo Sypsa
+                                    <strong>Jorge Valdivia,</strong> Gerente Central de Tecnología y Transformación, Procesos de Medios de Pago / izipay
+                                    <br><br>
+                                    <strong>Jorge Calderón,</strong> Gerente de Territorio en Grupo Sypsa
                                     <br><br>
                                     <strong>Cindy Sandoval,</strong> IBM Systems Hardware Manager, IBM Perú
                                 </p>
@@ -545,6 +577,8 @@
                                     Facilitando el Journey to cloud - VMware Lift and shift
                                     <br><br>
                                     <strong>Pablo Sandoval,</strong> IBM Public Cloud Technical Leader, Spanish South America Region + DEMO
+                                    <br><br>
+                                    <strong>Sandra Woolcott,</strong> CIO | Global Process & Continuous Improvement Manager, Grupo AJE
                                 </p>
                             </td>
                             <td>&nbsp;</td>

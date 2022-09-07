@@ -16,9 +16,9 @@ class WebController extends Controller
     public function index()
     {
         $agent = new Agent();
-        $fin = new Carbon('2022-09-02');
+        $fin = new Carbon('2022-09-16');
         $hoy = \Carbon\Carbon::now();
-        $cantidadDias = $hoy->diffInDays($fin) - 1;
+        $cantidadDias = $hoy->diffInDays($fin) + 1;
 
         return view('web.index', compact('agent', 'cantidadDias'));
     }
