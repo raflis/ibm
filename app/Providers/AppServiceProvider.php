@@ -31,9 +31,9 @@ class AppServiceProvider extends ServiceProvider
             return'/u842821089/domains/mned.online/public_html';
         });*/
 
-        /*if(env('APP_ENV') !== 'local') {
+        if(env('APP_ENV') !== 'local') {
             URL::forceScheme('https');
-        }*/
+        }
 
         /*$this->app->bind('path.public',function(){
             return'/home/ibmcloudrocks/public_html';
