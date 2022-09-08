@@ -120,8 +120,7 @@
                     </div>
                     <div class="text">
                         <p>
-                            <span>para que presentes tu solución</span><br>
-                            con IBM SW Technology
+                            <span>para el IBM Innovation Summit 2022</span>
                         </p>
                     </div>
                 </div>
@@ -211,14 +210,7 @@
                         <strong>Marcelo Delgado,</strong> CTO, IBM Perú Consulting <br><br>
                         <strong>Rocío Toma,</strong> Gerente de Arquitectura TI en Interbank
                     </div>
-                    <div class="p1">
-                        <div class="time">
-                            <p><strong>10:55</strong> AM</p>
-                        </div>
-                        <span>
-                            Power break
-                        </span>
-                    </div>
+
                 </div>
                 <div class="content">
                     <div class="p1">
@@ -252,20 +244,14 @@
                         <strong>Narciso Lema,</strong> Technology Technical Community Leader, IBM North Spanish South America Region <br><br>
                         <strong>Ulisses Mello,</strong> Director, Global Technology Outlook, Distinguished Engineer Research, IBM WordlWide
                     </div>
-                    <div class="p1">
-                        <div class="time">
-                            <p><strong>12:35</strong> PM</p>
-                        </div>
-                        <span>
-                            Lunch
-                        </span>
-                    </div>
+
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+<!--
 <section class="sec4">
     <div class="container-fluid">
         <div class="row justify-content-center">
@@ -286,6 +272,7 @@
         </div>
     </div>
 </section>
+-->
 
 <section class="sec5">
     <div class="container-fluid">
