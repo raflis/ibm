@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Web;
 
 use DB;
+use Mail;
 use Validator;
 use App\Models\Record;
 use Jenssegers\Agent\Agent;
@@ -50,6 +51,12 @@ class WebController extends Controller
         else:
             $record = Record::create($request->all());
             if($record):
+                $email = $request->email;
+                $record_email = $request->all();
+                Mail::send('web.emails.email', $record_email, function($message) use ($email)
+                {
+                    $message->to($email)->subject('¡Gracias por registrarte a la transmisión en vivo del IBM INNOVATION SUMMIT 2022!');    
+                });
                 return response()->json(['success' => true]);
             else:
                 return response()->json(['success' => false]);
