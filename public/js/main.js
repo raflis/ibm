@@ -18,6 +18,43 @@ function copyToClipBoard(id) {
     alert("Copiado al portapapeles");
 }
 
+function copyToClickBoard() {
+    var $temp = $("<textarea>");
+    $("body").append($temp);
+    var html = $('#copy-text').html();
+    html = html.replace(/<br>/g, "\n"); // or \r\n
+    html = html.replace(/<span[^>]*>/g, "");
+    html = html.replace(/<\/span>/g, "");
+    console.log(html);
+    //$temp.val(html).select();
+    //document.execCommand("copy");
+    navigator.clipboard.writeText(html)
+        .then(() => {
+        console.log("Text copied to clipboard...")
+    })
+        .catch(err => {
+        console.log('Something went wrong', err);
+    })
+    $temp.remove();
+}
+
+function copyToClickBoard0(){
+    var content = document.getElementById('copy-text').innerHTML;
+    //var brRegex = /<br\s*[\/]?>/gi;
+    //content.replace(brRegex, "\r\n");
+    content.replace('<br>', '\n');
+    console.log(content);
+
+    navigator.clipboard.writeText(content)
+        .then(() => {
+        console.log("Text copied to clipboard...")
+    })
+        .catch(err => {
+        console.log('Something went wrong', err);
+    })
+ 
+}
+
 $(document).ready(function(){
 
     AOS.init();

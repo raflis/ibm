@@ -198,7 +198,7 @@
                             Innovación y tecnología, receta para el éxito
                         </span><br><br>
                         <strong>Joaquim Campos,</strong> VP IBM Data & AI, Automation & AI Apps, IBM Latinoamérica<br><br>
-                        <strong>Juan Carlos Del Alcázar,</strong> Gerente General de Financiera Efectiva y César Calderón, Gerente Corporativo de Servicio al Negocio de Grupo EFE
+                        <strong>Juan Carlos Del Alcázar,</strong> Gerente General de Financiera Efectiva y <strong>César Calderón,</strong> Gerente Corporativo de Servicio al Negocio de Grupo EFE
                     </div>
                     <div class="p1">
                         <div class="time">
@@ -231,7 +231,7 @@
                         <span>
                             Next Wave to the Cybersecurity
                         </span><br><br>
-                        <strong>Gabriel Catropa,</strong> Partner & CTO Cybersecurity, IBM Latinoamérica<br><br>
+                        <strong>Matías Haidbauer,</strong> Threat Management Services Leader IBM Latin America, IBM Security Services<br><br>
                         <strong>Ricardo Perez D´Brot,</strong> Sub Gerente de Inteligencia y Respuesta de Ciberseguridad en Interbank
                     </div>
                     <div class="p1">
@@ -464,11 +464,11 @@
                             <td>&nbsp;</td>
                             <td class="col4" valign=top id="text2_">
                                 <p class="text2">
-                                    El Data Journey de la Caja Arequipa
+                                    El Data Journey de TASA
                                     <br><br>
-                                    <strong>Manuel Valdivia,</strong> Gerente COE Data & Analytics (CDO) en Caja Arequipa
+                                    <strong>Julio Yzaguirre,</strong> CIO de TASA
                                     <br><br>
-                                    <strong>Francesco Fontanot,</strong> Data & Artificial Intelligence Manager, IBM Latinamerica
+                                    <strong>Luis Cabrel,</strong> Data & IA Specialist, IBM Perú
                                 </p>
                             </td>
                         </tr>
@@ -528,6 +528,8 @@
                                     Data Science en Vivo
                                     <br><br>
                                     <strong>Virginia Monroy,</strong> IBM Technical Sales Data & AI
+                                    <br><br>
+                                    <strong>Francesco Fontanot,</strong> Data & Artificial Intelligence Manager, IBM Latinamerica
                                 </p>
                             </td>
                         </tr>
@@ -573,11 +575,11 @@
                                 <p class="text2">
                                     Privacidad de datos
                                     <br><br>
+                                    <strong>Hugo Allan Mori,</strong> Product Owner Squad Data Encryption | Arquitecto de Ciberseguridad , BPC
+                                    <br><br>
                                     <strong>Juan Saona,</strong> Gerente General, Neosecure
                                     <br><br>
                                     <strong>Diego Oviedo,</strong> Associate Partner & IBM Spanish South America Region Security Services Leader
-                                    <br><br>
-                                    <strong>Rafael Taboada,</strong> Security Partner Ecosystem Leader,  IBM North Spanish South America Region
                                 </p>
                             </td>
                             <td>&nbsp;</td>
@@ -586,6 +588,8 @@
                                     Singlestore: la base de datos sin límites para aplicaciones modernas y los sistemas analíticos
                                     <br><br>
                                     <strong>Kleber Ferreira,</strong> Client Technical Specialist Data & AI, IBM Chile
+                                    <br><br>
+                                    <strong>Andy Hong,</strong> Data & AI Technical Leader, IBM Latin America
                                 </p>
                             </td>
                         </tr>
@@ -639,9 +643,11 @@
                                 <p class="text2">
                                     Caso de éxito del uso de Agentes Virtuales
                                     <br><br>
+                                    <strong>Julio Cesar Guillerm More Rondon,</strong>  Subgerente de Soluciones y Portafolio TI en Ripley Perú
+                                    <br><br>
                                     <strong>Percy Enciso,</strong> Gerente General, MDP
                                     <br><br>
-                                    <strong>Gonzalo Flores,</strong> Cloud Manager IBM North Spanish South America Region
+                                    <strong>Gonzalo Flores,</strong> , IBM Software Manager , IBM Perú, Ecuador & Bolivia
                                 </p>
                             </td>
                         </tr>
@@ -689,7 +695,15 @@
                     if(response.success == true){
                         var content = '';
                         content = '<h1>Gracias por registrarte</h1>' +
-                                    '<p class="p_top">Pronto estaremos en contacto contigo</p>';
+                                    '<p class="p_top">Pronto estaremos en contacto contigo</p>' +
+                                    '<div id="copy-text">' +
+                                        '¡Lo bueno se comparte!<br><br>Soy parte de la transmisión en vivo del IBM Innovation Summit 2022 el próximo viernes 16 de setiembre.' +
+                                        '<br><br>' +
+                                        'Regístrate aquí: <span>https://www.ibminnovationsummit.com/</span>' +
+                                    '</div>' +
+                                    '<div class="text-center">' +
+                                        '<button class="btn btn-copy" onclick="copyToClickBoard()">Copiar texto</button>' +
+                                    '</div>';
                         $('.formulario').html(content);
                     }
                 },
