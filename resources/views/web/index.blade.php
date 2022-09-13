@@ -241,8 +241,9 @@
                         <span>
                             The Future of Computing
                         </span><br><br>
-                        <strong>Narciso Lema,</strong> Technology Technical Community Leader, IBM North Spanish South America Region <br><br>
-                        <strong>Ulisses Mello,</strong> Director, Global Technology Outlook, Distinguished Engineer Research, IBM WordlWide
+                        <strong>Ulisses Mello,</strong> Director, Global Technology Outlook, Distinguished Engineer Research, IBM WordlWide<br><br>
+                        <strong>Manuel Gonzalez Del Yerro,</strong>  IBM Sustainability SW Market Leader, Latin America <br><br>
+                        <strong>Narciso Lema,</strong> Technology Technical Community Leader, IBM North Spanish South America Region
                     </div>
 
                 </div>
@@ -458,7 +459,11 @@
                                 <p class="text2">
                                     Zero Trust en la gestion de identidades
                                     <br><br>
-                                    <strong>Mauricio Jimenez,</strong> Security Brand Technical Specialist, IBM Colombia
+                                    <strong>Mark Falcon,</strong> Senior IT Security Consultant at Wisevision
+                                    <br><br>
+                                    <strong>Mauricio Jimenez,</strong> Brand Technical Specialist - IBM Security, Digital Trust IBM North Spanish South America Region
+                                    <br><br>
+                                    <strong>Rafael Taboada,</strong> Security Partner Ecosystem Leader, IBM North Spanish South America Region
                                 </p>
                             </td>
                             <td>&nbsp;</td>
@@ -579,7 +584,7 @@
                                     <br><br>
                                     <strong>Juan Saona,</strong> Gerente General, Neosecure
                                     <br><br>
-                                    <strong>Diego Oviedo,</strong> Associate Partner & IBM Spanish South America Region Security Services Leader
+                                    <strong>Ghiovanni Miranda,</strong> Advisory Security Specialist, IBM Perú
                                 </p>
                             </td>
                             <td>&nbsp;</td>
@@ -625,15 +630,15 @@
                                     <br><br>
                                     <strong>Carlos Van Oordt,</strong> Chief Commercial Officer en Canvia
                                     <br><br>
-                                    <strong>Nico Hare,</strong> IBM Cloud Platform Leader, IBM North Spanish South America Region
+                                    <strong>Pablo Sandoval,</strong> IBM Public Cloud Technical Leader, Spanish South America Region
                                 </p>
                             </td>
                             <td>&nbsp;</td>
                             <td class="col3" valign=top id="text2_">
                                 <p class="text2">
-                                    Protección del Endpoint -> SIEMless
+                                    Panorama SIEMless
                                     <br><br>
-                                    <strong>Matías Haidbauer,</strong> Threat Management Services Leader IBM Latin America, IBM Security Services
+                                    <strong>Javier Portuguez,</strong>  Security Services Senior Managing Consultant, IBM Latin America
                                     <br><br>
                                     <strong>Estuardo Romero,</strong> Security Client Technical Professional,  IBM Perú
                                 </p>
