@@ -215,7 +215,7 @@
                 <div class="content">
                     <div class="p1">
                         <div class="time">
-                            <p><strong>11:05</strong> AM</p>
+                            <p><strong>11:10</strong> AM</p>
                         </div>
                         <span>
                             Harness the Power of Hybrid Cloud
@@ -226,7 +226,7 @@
                     </div>
                     <div class="p1">
                         <div class="time">
-                            <p><strong>11:35</strong> AM</p>
+                            <p><strong>11:40</strong> AM</p>
                         </div>
                         <span>
                             Next Wave to the Cybersecurity
@@ -236,7 +236,7 @@
                     </div>
                     <div class="p1">
                         <div class="time">
-                            <p><strong>12:05</strong> PM</p>
+                            <p><strong>12:10</strong> PM</p>
                         </div>
                         <span>
                             The Future of Computing
@@ -376,7 +376,7 @@
                         <tr>
                             <td align="right" valign="top">
                                 <p class="date">
-                                    <span>01:35</span> PM
+                                    <span>02:00</span> PM
                                 </p>
                             </td>
                             <td>&nbsp;</td>
@@ -434,7 +434,7 @@
                         <tr>
                             <td align="right" valign="top">
                                 <p class="date">
-                                    <span>02:05</span> PM
+                                    <span>02:30</span> PM
                                 </p>
                             </td>
                             <td>&nbsp;</td>
@@ -492,7 +492,7 @@
                         <tr>
                             <td align="right" valign="top">
                                 <p class="date">
-                                    <span>02:35</span> PM
+                                    <span>03:00</span> PM
                                 </p>
                             </td>
                             <td>&nbsp;</td>
@@ -552,7 +552,7 @@
                         <tr>
                             <td align="right" valign="top">
                                 <p class="date">
-                                    <span>03:35</span> PM
+                                    <span>04:00</span> PM
                                 </p>
                             </td>
                             <td>&nbsp;</td>
@@ -612,7 +612,7 @@
                         <tr>
                             <td align="right" valign="top">
                                 <p class="date">
-                                    <span>04:05</span> PM
+                                    <span>04:30</span> PM
                                 </p>
                             </td>
                             <td>&nbsp;</td>
