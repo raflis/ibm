@@ -21,6 +21,13 @@ Route::get('clear-cache', function() {
 });
 
 Route::get('/', [App\Http\Controllers\Web\WebController::class, 'index'])->name('index');
+Route::get('enviar_mails', [App\Http\Controllers\Web\WebController::class, 'now'])->name('now');
+Route::get('online/Plenaria', [App\Http\Controllers\Web\WebController::class, 'sala0'])->name('sala0');
+Route::get('online/Business-and-IT-Automation', [App\Http\Controllers\Web\WebController::class, 'sala1'])->name('sala1');
+Route::get('online/Hybrid-Cloud-and-Modernization', [App\Http\Controllers\Web\WebController::class, 'sala2'])->name('sala2');
+Route::get('online/Zero-Trust-Security', [App\Http\Controllers\Web\WebController::class, 'sala3'])->name('sala3');
+Route::get('online/Data-Fabric-and-AI', [App\Http\Controllers\Web\WebController::class, 'sala4'])->name('sala4');
+
 Route::get('br', [App\Http\Controllers\Web\WebController::class, 'br'])->name('br');
 Route::post('contacto', [App\Http\Controllers\Web\WebController::class, 'postContacto'])->name('contacto');
 Route::get('gracias', [App\Http\Controllers\Web\WebController::class, 'gracias'])->name('gracias');

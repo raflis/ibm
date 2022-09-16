@@ -336,6 +336,27 @@
                             <td align="right" bgcolor="#08BDBA" class="arrow"><img src="{{ asset('images/arrow-right.png') }}" width="22" height="18" alt=""/></td>
                         </tr>
                         <tr>
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                          <td bgcolor="#002D9C">
+							<p class="title22">
+                                <a href="{{ route('sala1') }}">Ver tranmisión en vivo</a>
+                                </p>
+							</td>
+                          <td>&nbsp;</td>
+                          <td bgcolor="#1192E8"><p class="title22">
+                                <a href="{{ route('sala2') }}">Ver tranmisión en vivo</a>
+                                </p></td>
+                          <td>&nbsp;</td>
+                          <td bgcolor="#6929C4"><p class="title22">
+                                <a href="{{ route('sala3') }}">Ver tranmisión en vivo</a>
+                                </p></td>
+                          <td>&nbsp;</td>
+                          <td bgcolor="#08BDBA"><p class="title22">
+                                <a href="{{ route('sala4') }}">Ver tranmisión en vivo</a>
+                                </p></td>
+                        </tr>
+                        <tr>
                             <td>&nbsp;</td>
                             <td>&nbsp;</td>
                             <td>&nbsp;</td>

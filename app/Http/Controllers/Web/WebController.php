@@ -24,6 +24,41 @@ class WebController extends Controller
         return view('web.index', compact('agent', 'cantidadDias'));
     }
 
+    public function sala0()
+    {
+        $title = "Plenaria";
+        $video = "pImgHZbbT3Q";
+        return view('web.online', compact('video', 'title')); 
+    }
+
+    public function sala1()
+    {
+        $title = "Business & IT Automation";
+        $video = "189uwAaqoYM";
+        return view('web.online', compact('video', 'title')); 
+    }
+
+    public function sala2()
+    {
+        $title = "Hybrid Cloud & Modernization";
+        $video = "nt3Cv4OIWI8";
+        return view('web.online', compact('video', 'title')); 
+    }
+
+    public function sala3()
+    {
+        $title = "Zero Trust Security";
+        $video = "Bwx4oQL2E-c";
+        return view('web.online', compact('video', 'title')); 
+    }
+
+    public function sala4()
+    {
+        $title = "Data Fabric & AI";
+        $video = "KqGBAmINbho";
+        return view('web.online', compact('video', 'title')); 
+    }
+
     public function postContacto(Request $request)
     {
         $rules=[
@@ -67,6 +102,21 @@ class WebController extends Controller
     public function gracias()
     {
         return view('web.gracias');
+    }
+
+    public function now()
+    {
+        $records = Record::get();
+        foreach($records as $record):
+            $email = $record->email;
+            $name = $record->name;
+            Mail::send('web.emails.now', [], function($message) use ($email, $name)
+            {
+                $message->to($email)->subject($name. ' ¡Llegó el día del IBM INNOVATION SUMMIT 2022!');    
+            });
+        endforeach;
+
+        return 'Envios terminados exitosamente';
     }
 
 }
