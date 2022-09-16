@@ -26,6 +26,8 @@
                 <a href="" class="btn btn-registro" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Regístrate
                 </a>
+                <br><br>
+                <a class="btn btn-registro" href="{{ route('sala0') }}">Ver transmision en vivo de plenaria</a>
             </div>
         </div>
     </div>
@@ -109,7 +111,7 @@
         </div>
     </div>
 </div>
-
+<!--
 <section class="sec0">
     <div class="container">
         <div class="row justify-content-center">
@@ -128,7 +130,7 @@
         </div>
     </div>
 </section>
-
+-->
 <section class="sec1">
     <div class="container-fluid">
         <div class="row">
