@@ -28,6 +28,8 @@
                 </a>
                 <br><br>
                 <a class="btn btn-registro" href="{{ route('sala0') }}">Ver transmision en vivo de plenaria</a>
+                <br><br>
+                <a class="btn btn-registro" href="#tracks">Ver transmisión en vivo de tracks</a>
             </div>
         </div>
     </div>
@@ -277,7 +279,7 @@
 </section>
 -->
 
-<section class="sec5">
+<section class="sec5" id="tracks">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
